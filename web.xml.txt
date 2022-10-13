@@ -1,0 +1,12 @@
+if(email.equals("prince786pal@gmail.com")&&password.equals("12345"))
+UPDATE `task1table` SET `email`='[kanu@gamil.com]' WHERE `name`='[yash]';
+		{
+		
+		RequestDispatcher=request.getRequestDispatcher("Signup");
+        RequestDispatcher.forward(request, response);
+		}
+		else
+		{
+			RequestDispatcher=request.getRequestDispatcher("index.html");
+	        RequestDispatcher.include(request, response);
+		}
